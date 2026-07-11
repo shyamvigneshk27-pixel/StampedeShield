@@ -20,9 +20,9 @@ StampedeShield is an offline-first, deployable, infrastructure-free system desig
 StampedeShield is built using four distinct, non-interchangeable devices:
 
 ```
-┌─────────────────┐      BLE      ┌───────────────────┐      BLE      ┌────────────────┐
+┌─────────────────┐      BLE      ┌───────────────────┐      WiFi      ┌────────────────┐
 │   Arduino UNO   ├──────────────►│ Snapdragon X PC   ├──────────────►│ Android Phone  │
-│ (8 FSR Sensors) │ (JSON stream) │ (SPC Engine NPU)  │ (Risk Alert)  │ (Marshal App)  │
+│ (6 FSR Sensors) │ (JSON stream) │ (SPC Engine NPU)  │ (Risk Alert)  │ (Marshal App)  │
 └─────────────────┘               └─────────┬─────────┘               └────────────────┘
                                             │
                                             │ Out-of-Distribution (Async)
